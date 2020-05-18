@@ -1,19 +1,15 @@
 {
   "name": "installment-debt-manager",
-  "version": "0.0.1",
-  "description": "Simple management tool for installment debts. Calculate installment payments by month, week, etc to payoff installment debts.",
+  "version": "0.1.0",
+  "description": "Manage installment debts easily.",
   "main": "index.js",
+  "repository": "https://github.com/wagx92/installment-debt-manager.git",
+  "author": "Wilson <wagx92@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.3.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wagx92/installment-debt-manager.git"
-  },
-  "author": "Wilson Gardner",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wagx92/installment-debt-manager/issues"
-  },
-  "homepage": "https://github.com/wagx92/installment-debt-manager#readme"
+    "start": "electron ."
+  }
 }
