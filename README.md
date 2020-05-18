@@ -1,4 +1,4 @@
-#Installment Debt Manager
+# Installment Debt Manager
 This app helps you manage installment debts that you want to pay off.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
